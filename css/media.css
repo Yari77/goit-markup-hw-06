@@ -28,11 +28,12 @@
     }
 
     .team-list {
-        gap: 24px 64px;
+        gap: 64px 24px;
+        justify-content: center;
     }
 
     .team-item {
-        width: calc((100% - 24px) / 2);
+        margin: 0;
     }
     }
 
