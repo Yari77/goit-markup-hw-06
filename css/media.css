@@ -1,4 +1,4 @@
-@media screen and (min-width: 428px) {
+@media screen and (min-width: 428px) and (max-width:767px) {
     .container {
     max-width: 426px;
     }
@@ -26,7 +26,18 @@
     .advantages-subtitle {
     text-align: left;
     }
-}
+
+    .team-list {
+        gap: 24px 64px;
+    }
+
+    .team-item {
+        width: calc((100% - 24px) / 2);
+    }
+    }
+
+    
+
 
 
 @media screen and (min-width: 1158px) {
@@ -57,3 +68,5 @@
     display: flex;
     }
 }
+
+
