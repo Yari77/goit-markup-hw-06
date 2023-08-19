@@ -178,24 +178,24 @@ border: none;
 background-color: transparent;
 display: block;
 margin-left: auto;
-position: absolute;
-width: 24px;
-height: 24px;
-top: 24px;
-right: 24px;
-border-radius: 50%;
-display: flex;
-align-items: center;
-justify-content: center;
-padding: 0;
-cursor: pointer;
-transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
-background-color: #e7e9fc;
-border: 1px solid rgba(0, 0, 0, 0.1);
+
 }
 
 .burger-menu-icon {
 stroke: var(--main-cl);
+}
+
+.menu-close {
+    position: absolute;
+    width: 24px;
+    height: 24px;
+    top: 24px;
+    right: 24px;
+    border-radius: 50%;
+    cursor: pointer;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1); 
+    background-color: #e7e9fc;
+    border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .menu-container {
@@ -256,7 +256,6 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--iris-cl);
-margin-bottom: 40px;
 }
 
 .email {
@@ -266,18 +265,23 @@ font-style: normal;
 line-height: 1.2;
 letter-spacing: 0.02em;
 color: var(--slate-cl);
-margin-bottom: 48px;
 }
 
 .mob-address {
 
 }
 .mob-address-contact {
+    margin-bottom: 48px;
+    font-style: normal;
 }
 .mob-address-list {
 }
 .mob-address-item {
 
+}
+
+.number-item {
+    margin-bottom: 40px;
 }
 .mob-address-link {
 }

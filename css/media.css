@@ -141,6 +141,11 @@ gap: 12px;
     width: ((100% - 120px) / 6);
     }
 
+    .header-address-list {
+        flex-direction: row;
+        gap: 40px;
+        }
+
     .hero{
         padding-top: 188px;
         padding-bottom: 188px;
