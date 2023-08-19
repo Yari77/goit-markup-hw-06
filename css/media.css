@@ -31,7 +31,7 @@
         width: 392px;
     }
 
-    .mob-social-list {
+    .mob-socials-list {
         gap: 56px;
     }
 
@@ -82,7 +82,7 @@
     }
 
     .hero{
-    padding: 112px 136px 204px 136px;
+    padding: 112px 204px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-tablet.jpg);
     }
 
@@ -96,7 +96,7 @@
 
 .hero-title {
     font-size: 56px;
-    min-width: 496px;
+    max-width: 496px;
     line-height: 1.07;
 }
 
@@ -129,8 +129,8 @@ gap: 12px;
     text-align: left;
 }
 
+
 .footer-form {
-    
     flex-wrap: nowrap;
 }
 

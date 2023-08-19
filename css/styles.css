@@ -177,6 +177,11 @@ width: 66px;
 /* relative */
 }
 
+.current-1 {
+position: relative;
+color: var(--ocean-cl);
+}
+
 /*!-----------------------HEADER-MOBILE-----------------------*/
 
 .menu-toggle {
