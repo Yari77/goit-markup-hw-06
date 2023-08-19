@@ -30,6 +30,14 @@
     .modal {
         width: 392px;
     }
+
+    .mob-social-list {
+        gap: 56px;
+    }
+
+    .number {
+        font-size: 36px;
+    }
 }
 
 /*!---------------------------TABLET----------------------------*/
@@ -76,7 +84,6 @@
     .hero{
     padding: 112px 136px 204px 136px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-tablet.jpg);
-    max-width: 768px;
     }
 
     @media (min-device-pixel-ratio: 2),
@@ -89,7 +96,8 @@
 
 .hero-title {
     font-size: 56px;
-    max-width: 496px;
+    min-width: 496px;
+    line-height: 1.07;
 }
 
 .menu-toggle {
@@ -217,7 +225,7 @@ transform: translate(-50%, -50%) scale(1);
         padding-top: 188px;
         padding-bottom: 188px;
         background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg.jpg);
-        max-width: 1440px;
+        
     }
 
     @media (min-device-pixel-ratio: 2),
