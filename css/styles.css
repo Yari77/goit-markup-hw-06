@@ -219,18 +219,6 @@ overflow: auto;
 transform: translateX(0);
 }
 
-.js-menu-container {
-}
-.js-close-menu {
-}
-
-
-.mob-navigation {
-}
-.mob-menu-list {
-}
-.list {
-}
 .mob-menu-item {
 margin-bottom: 40px;
 }
@@ -261,23 +249,14 @@ letter-spacing: 0.02em;
 color: var(--slate-cl);
 }
 
-.mob-address {
-
-}
 .mob-address-contact {
-    margin-bottom: 48px;
-    font-style: normal;
+margin-bottom: 48px;
+font-style: normal;
 }
-.mob-address-list {
-}
-.mob-address-item {
 
-}
 
 .number-item {
-    margin-bottom: 40px;
-}
-.mob-address-link {
+margin-bottom: 40px;
 }
 
 .mob-socials-list {
