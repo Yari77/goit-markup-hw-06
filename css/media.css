@@ -10,7 +10,7 @@
     }
 
     .hero-title {
-    width: 320px;
+    max-width: 320px;
     margin-bottom: 72px;
     }
 
@@ -87,6 +87,11 @@
     }
 }
 
+.hero-title {
+    font-size: 56px;
+    max-width: 496px;
+}
+
 .menu-toggle {
 display: none;
 }
@@ -101,6 +106,10 @@ display: none;
 .header-address-list {
 flex-direction: column;
 gap: 12px;
+}
+
+.header-address-link {
+    font-size: 12px;
 }
 
 .footer-container {
@@ -222,6 +231,7 @@ transform: translate(-50%, -50%) scale(1);
     .hero-title{
         margin-bottom: 48px;
         height: 120px;
+        font-size: 56px;
     }
 
     .description {
