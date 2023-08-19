@@ -83,8 +83,14 @@ flex-direction: column;
 gap: 12px;
 }
 
+.footer-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: baseline;
+    gap: 24px;
+}
 
-    
     }
 
     
@@ -166,6 +172,50 @@ gap: 12px;
     .hero-title{
         margin-bottom: 48px;
         height: 120px;
+    }
+
+    .footer-item {
+        padding-top: 100px;
+        padding-bottom: 100px;
+    }
+
+    .footer-container {
+        display: flex;
+align-items: baseline;
+justify-content: space-between;
+    }
+
+    .container-footer-logo {
+        margin-right: 120px;
+    }
+    
+    .footer-logo {
+        display: inline-flex;
+    }
+
+    .footer-socials-title {
+
+    }
+
+    .footer-text {
+        max-width: 264px;
+    }
+
+    .footer-contact-text {
+        margin-left: 80px;
+    }
+
+    .footer-form {
+        flex-wrap: nowrap;
+        margin-left: 80px;
+    }
+
+    .footer-input {
+        width: 264px;
+    }
+
+    .footer-submit-btn {
+
     }
 }
 

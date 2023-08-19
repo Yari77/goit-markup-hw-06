@@ -791,7 +791,6 @@ gap: 24px;
 }
 
 .footer-input {
-/* width: 264px; */
 width: 398px;
 height: 40px;
 padding-left: 16px;
@@ -827,7 +826,6 @@ font-weight: 500;
 line-height: 1.5;
 letter-spacing: 0.04em;
 margin: 0 auto;
-width: 100%;
 }
 
 .footer-submit-btn:hover,
