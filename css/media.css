@@ -10,10 +10,13 @@
     }
 
     .hero-title {
-        width: 320px;
+    width: 320px;
     margin-bottom: 72px;
     }
 
+    .current::after {
+        display: none;
+    }
 }
 
 /*!---------------------------TABLET----------------------------*/
@@ -53,6 +56,10 @@
         width: calc((100% - 48px) /3);
     }
 
+    .current::after {
+        display: block;
+    }
+
     .hero{
     padding: 112px 136px 204px 136px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-tablet.jpg);
@@ -83,14 +90,15 @@ flex-direction: column;
 gap: 12px;
 }
 
-.footer-container {
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    align-items: baseline;
-    gap: 24px;
-}
 
+.modal {
+width: 408px;
+padding-top: 72px;
+padding-right: 25px;
+padding-bottom: 24px;
+padding-left: 23px;
+transform: translate(-50%, -60%) scale(1);
+}
     }
 
     
@@ -174,49 +182,15 @@ gap: 12px;
         height: 120px;
     }
 
-    .footer-item {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
 
-    .footer-container {
-        display: flex;
-align-items: baseline;
-justify-content: space-between;
-    }
-
-    .container-footer-logo {
-        margin-right: 120px;
-    }
-    
-    .footer-logo {
-        display: inline-flex;
-    }
-
-    .footer-socials-title {
-
-    }
-
-    .footer-text {
-        max-width: 264px;
-    }
-
-    .footer-contact-text {
-        margin-left: 80px;
-    }
-
-    .footer-form {
-        flex-wrap: nowrap;
-        margin-left: 80px;
-    }
-
-    .footer-input {
-        width: 264px;
-    }
-
-    .footer-submit-btn {
-
-    }
+    .modal {
+        width: 408px;
+        padding-top: 72px;
+        padding-right: 24px;
+        padding-bottom: 24px;
+        padding-left: 24px;
+        transform: translate(-50%, -50%) scale(1);
+        }
 }
 
 
