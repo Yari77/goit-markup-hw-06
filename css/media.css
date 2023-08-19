@@ -224,6 +224,10 @@ transform: translate(-50%, -60%) scale(1);
         height: 120px;
     }
 
+    .description {
+        display: block;
+    }
+
     .container-footer-logo {
         margin-right: 120px;
     }

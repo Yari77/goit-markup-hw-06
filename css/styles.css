@@ -320,7 +320,8 @@ color: var(--ocean-cl);
 
 .hero {
 background-color: var(--main-cl);
-padding: 112px 54px 240px 54px;
+padding-top: 112px;
+padding-bottom: 112px;
 /* padding-top: 188px;
 padding-bottom: 188px; */
 margin: 0 auto;
@@ -440,6 +441,7 @@ color: var(--slate-cl);
 
 .description{
 padding-bottom: 120px;
+display: none;
 }
 
 .description-subtitle {
