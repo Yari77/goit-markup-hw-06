@@ -103,9 +103,13 @@ flex-direction: column;
 gap: 12px;
 }
 
+.footer-container {
+    justify-content: flex-start;
+    gap: 72px 24px;
+}
+
 .container-footer-logo {
     text-align: left;
-    margin-right: auto;
 }
 
 .footer-form {
@@ -125,6 +129,9 @@ gap: 12px;
     width: 264px;
 }
 
+.footer-socials-title {
+    text-align: left;
+}
 
 .modal {
 width: 408px;
@@ -215,6 +222,19 @@ transform: translate(-50%, -60%) scale(1);
     .hero-title{
         margin-bottom: 48px;
         height: 120px;
+    }
+
+    .container-footer-logo {
+        margin-right: 120px;
+    }
+
+    .footer-socials {
+        margin-right: 80px;
+    }
+
+    .footer-container{
+        flex-wrap: nowrap;
+        gap: 0;
     }
 
 

@@ -346,11 +346,8 @@ line-height: 1.1;
 letter-spacing: 0.02em;
 text-align: center;
 color: var(--white-cl);
-max-width: 496px;
-padding-left: auto;
-padding-right: auto;
-margin-right: auto;
-margin-left: auto;
+width: 250px;
+margin: 0 auto;
 margin-bottom: 100px;
 height: 80px;
 }
@@ -658,7 +655,6 @@ padding: 97.5px 15px 96px 15px;
 .footer-container {
 display: flex;
 flex-wrap: wrap;
-align-items: center;
 justify-content: center;
 gap: 72px;
 }
@@ -721,7 +717,7 @@ font-style: normal;
 line-height: 1.50;
 letter-spacing: 0.02em;
 color: var(--cloud-cl);
-max-width: 268px;
+max-width: 264px;
 }
 
 
@@ -840,7 +836,6 @@ transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cu
 
 .footer-icon-submit {
 fill: var(--white-cl);
-margin-left: 16px;
 }
 
 
