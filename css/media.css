@@ -14,8 +14,21 @@
     margin-bottom: 72px;
     }
 
+    .current-1 {
+        position: relative;
+        color: var(--ocean-cl);
+        }
+
     .current::after {
         display: none;
+    }
+
+    .modal-check-text {
+        font-size: 12px;
+    }
+
+    .modal {
+        width: 392px;
     }
 }
 
@@ -88,6 +101,28 @@ display: none;
 .header-address-list {
 flex-direction: column;
 gap: 12px;
+}
+
+.container-footer-logo {
+    text-align: left;
+    margin-right: auto;
+}
+
+.footer-form {
+    
+    flex-wrap: nowrap;
+}
+
+.footer-contact {
+    margin-right: auto;
+}
+
+.footer-contact-text {
+    text-align: left;
+}
+
+.footer-input {
+    width: 264px;
 }
 
 

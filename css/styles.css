@@ -657,7 +657,7 @@ padding: 97.5px 15px 96px 15px;
 
 .footer-container {
 display: flex;
-flex-direction: column;
+flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 gap: 72px;
@@ -1035,7 +1035,7 @@ top: 50%;
 left: 50%;
 transform: translate(-50%, -60%) scale(1);
 /* width: 408px; */
-width: 392px;
+width: 300px;
 min-height: 584px;
 border-radius: 4px;
 background: #fcfcfc;
@@ -1139,7 +1139,7 @@ border: var(--iris-cl);
 
 .modal-check-text {
 font-family: Roboto;
-font-size: 12px;
+font-size: 9px;
 font-style: normal;
 font-weight: 400;
 line-height: 1.17;
@@ -1196,7 +1196,7 @@ gap: 10px;
 border-radius: 4px;
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 border: none;
-margin: 0 120px 24px 100px;
+margin: 0 auto;
 min-width: 169px;
 height: 56px;
 transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
