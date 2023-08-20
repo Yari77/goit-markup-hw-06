@@ -38,6 +38,10 @@
     .number {
         font-size: 36px;
     }
+
+    .footer-input {
+        width: 398px;
+    }
 }
 
 /*!---------------------------TABLET----------------------------*/
@@ -77,12 +81,12 @@
         width: calc((100% - 48px) /3);
     }
 
+    
     .current::after {
         display: block;
     }
 
     .hero{
-    padding: 112px 204px;
     background-image: linear-gradient(rgba(46, 47, 66, 0.70), rgba(46, 47, 66, 0.70)), url(../images/hero-bg-tablet.jpg);
     }
 
@@ -126,7 +130,8 @@ gap: 12px;
 }
 
 .footer-contact {
-    text-align: center;
+    text-align: left;
+
 }
 
 .container-footer-logo {
@@ -140,10 +145,10 @@ gap: 12px;
     
 }
 
-.footer-contact {
+/* .footer-contact {
     margin-right: auto;
     margin-left: auto;
-}
+} */
 
 .footer-contact-text {
     text-align: left;
@@ -279,6 +284,10 @@ transform: translate(-50%, -50%) scale(1);
         padding-bottom: 24px;
         padding-left: 24px;
         transform: translate(-50%, -50%) scale(1);
+        }
+
+        .current::after {
+            display: block;
         }
 }
 
