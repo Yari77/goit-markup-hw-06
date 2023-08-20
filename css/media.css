@@ -139,6 +139,7 @@ gap: 12px;
 
 .container-footer-logo {
     text-align: left;
+    margin-left: 108px;
 }
 
 
@@ -159,6 +160,10 @@ gap: 12px;
 
 .footer-input {
     width: 264px;
+}
+
+.footer-socials {
+    margin-right: auto;
 }
 
 .footer-socials-title {
