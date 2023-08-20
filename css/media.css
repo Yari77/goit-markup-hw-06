@@ -15,11 +15,6 @@
     }
 
 
-    .current-1 {
-        position: relative;
-        color: var(--ocean-cl);
-        }
-
     .current::after {
         display: none;
     }
@@ -233,6 +228,8 @@ transform: translate(-50%, -50%) scale(1);
     .customers-list {
     gap: 24px;
     flex-wrap: nowrap;
+    padding-left: 0;
+    padding-right: 0;
     }
 
     .customers-item {
@@ -286,6 +283,10 @@ transform: translate(-50%, -50%) scale(1);
     .footer-container{
         flex-wrap: nowrap;
         gap: 0;
+    }
+
+    .footer-contact {
+        margin-left: 0;
     }
 
     .footer-item {

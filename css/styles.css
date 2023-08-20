@@ -236,6 +236,10 @@ letter-spacing: 0.02em;
 text-transform: capitalize;
 color: var(--main-cl);
 }
+.current-1 {
+    position: relative;
+    color: var(--ocean-cl);
+    }
 
 .number {
 font-size: 24px;
