@@ -133,7 +133,7 @@ gap: 12px;
 .footer-contact {
     text-align: left;
     margin-right: auto;
-    margin-left: 108px;
+    margin-left: 0;
 
 }
 
@@ -273,6 +273,7 @@ transform: translate(-50%, -50%) scale(1);
 
     .container-footer-logo {
         margin-right: 120px;
+        margin-left: 0;
     }
 
     .footer-socials {
@@ -284,6 +285,9 @@ transform: translate(-50%, -50%) scale(1);
         gap: 0;
     }
 
+    .footer-item {
+        padding: 120px 0;
+    }
 
     .modal {
         width: 408px;
