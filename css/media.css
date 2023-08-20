@@ -14,10 +14,10 @@
     margin-bottom: 72px;
     }
 
-    .current-1 {
+    /* .current-1 {
         position: relative;
         color: var(--ocean-cl);
-        }
+        } */
 
     .current::after {
         display: none;
@@ -37,6 +37,7 @@
 
     .number {
         font-size: 36px;
+
     }
 
     .footer-input {
@@ -131,6 +132,8 @@ gap: 12px;
 
 .footer-contact {
     text-align: left;
+    margin-right: auto;
+    margin-left: 108px;
 
 }
 
