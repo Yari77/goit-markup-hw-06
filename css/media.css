@@ -121,8 +121,12 @@ gap: 12px;
 }
 
 .footer-container {
-    justify-content: flex-start;
+    justify-content: center;
     gap: 72px 24px;
+}
+
+.footer-contact {
+    text-align: center;
 }
 
 .container-footer-logo {
@@ -132,10 +136,13 @@ gap: 12px;
 
 .footer-form {
     flex-wrap: nowrap;
+    justify-content: center;
+    
 }
 
 .footer-contact {
     margin-right: auto;
+    margin-left: auto;
 }
 
 .footer-contact-text {
